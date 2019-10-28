@@ -1,0 +1,7 @@
+.bjs-powered-by > img {
+  display: none;
+}
+
+.bjs-powered-by::before {
+  content: url('app-plugins://test/assets/logo.svg');
+}
