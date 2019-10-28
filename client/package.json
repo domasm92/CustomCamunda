@@ -10,7 +10,7 @@
     "@bpmn-io/align-to-origin": "^0.6.0",
     "@bpmn-io/replace-ids": "^0.2.0",
     "bpmn-js": "^5.1.2",
-    "chor-js": "../../CustomCamunda",
+    "chor-js": "../../ChorMe",
     "bpmn-js-properties-panel": "^0.32.2",
     "bpmn-js-signavio-compat": "^1.2.0",
     "camunda-bpmn-moddle": "^4.2.0",
