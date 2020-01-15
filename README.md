@@ -18,4 +18,5 @@ To install the whole SitScope environment perform the following steps:
   - Copy the "SitScopePlugin" folder into /Users/{USER_NAME}/Library/Application Support/camunda-modeler/plugins
 - Run Camunda Modeler.exe (Windows), Camunda Modeler.app (Mac) or camunda-modeler (Linux) in the "CustomCamunda/dist/{the version you want to use}/ 
 
+More infos on plugins for Camunda can be found here: https://github.com/camunda/camunda-modeler/blob/master/docs/plugins/README.md
 Issues may arise due to os-specific commands
