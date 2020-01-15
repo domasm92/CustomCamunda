@@ -12,7 +12,10 @@ To install the whole SitScope environment perform the following steps:
 - Change the directory to the newly cloned "CustomCamunda"-folder
 - Execute "npm install"
 - Execute "npm run build"
-- Copy the "SitScopePlugin" folder into "CustomCamunda/dist/{the version you want to use}/resources/plugins
+- If windows/linux:
+  - Copy the "SitScopePlugin" folder into "CustomCamunda/dist/{the version you want to use}/resources/plugins
+ If Mac:
+  - Copy the "SitScopePlugin" folder into /Users/{USER_NAME}/Library/Application Support/camunda-modeler/plugins
 - Run Camunda Modeler.exe (Windows), Camunda Modeler.app (Mac) or camunda-modeler (Linux) in the "CustomCamunda/dist/{the version you want to use}/ 
 
 Issues may arise due to os-specific commands
