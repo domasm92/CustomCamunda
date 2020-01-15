@@ -1,49 +1,18 @@
-# Camunda Modeler
+Custom Camunda Modeler
 
-[![Build Status](https://travis-ci.org/camunda/camunda-modeler.svg?branch=develop)](https://travis-ci.org/camunda/camunda-modeler)
+You require npm for this tool.
 
-An integrated modeling solution for BPMN, DMN and CMMN based on [bpmn.io](http://bpmn.io).
+To install the whole SitScope environment perform the following steps:
 
-![Camunda Modeler](docs/screenshot.png)
-
-
-## Resources
-
-* [Changelog](./CHANGELOG.md)
-* [Download](https://camunda.com/download/modeler/) (see also [nightly builds](http://camunda.org/release/camunda-modeler/nightly))
-* [Give Feedback](https://forum.camunda.org/c/modeler)
-* [Report a Bug](https://github.com/camunda/camunda-modeler/issues)
-* [User Documentation](https://docs.camunda.org/manual/latest/modeler/camunda-modeler/)
-
-
-## Building the Application
-
-```sh
-# checkout a tag
-git checkout v1.1.0
-
-# install dependencies
-npm install
-
-# execute all checks (lint, test and build)
-npm run all
-
-# build the application to ./dist
-npm run build
-```
+- Create a new folder at a location of your choice
+- Clone this repository and the repositories of SitScopePlugin (https://github.com/domasm92/SitScopePlugin) and ChorMe (https://github.com/domasm92/ChorMe) into that folder
+- Open a terminal and change the directory into the newly cloned "SitScopePlugin"-folder
+- Execute "npm install"
+- Execute "npm run build"
+- Change the directory to the newly cloned "CustomCamunda"-folder
+- Execute "npm install"
+- Execute "npm run build"
+- Copy the "SitScopePlugin" folder into "CustomCamunda/dist/(the version you want to use)/resources/plugins
+- Run Camunda Modeler.exe (Windows), Camunda Modeler.app (Mac) or camunda-modeler (Linux) in the "CustomCamunda/dist/(the version you want to use)/ 
 
 
-### Development Setup
-
-Spin up the application for development, all strings attached:
-
-```
-npm run dev
-```
-
-
-## License
-
-MIT
-
-Uses [bpmn-js](https://github.com/bpmn-io/bpmn-js), [dmn-js](https://github.com/bpmn-io/dmn-js), and [cmmn-js](https://github.com/bpmn-io/cmmn-js), licensed under the [bpmn.io license](http://bpmn.io/license).
