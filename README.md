@@ -1,5 +1,7 @@
 Custom Camunda Modeler
 
+Camunda Modeler with small changes to allow the use of the SitScope Modeling Plugin.
+
 You require npm for this tool.
 
 To install the whole SitScope environment perform the following steps:
@@ -20,3 +22,5 @@ To install the whole SitScope environment perform the following steps:
 
 More infos on plugins for Camunda can be found here: https://github.com/camunda/camunda-modeler/blob/master/docs/plugins/README.md
 Issues may arise due to os-specific commands
+
+This project is build on the Camunda Modeler (https://github.com/camunda/camunda-modeler) which is licensed under the MIT Licence
